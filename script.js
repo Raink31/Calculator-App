@@ -1,19 +1,15 @@
-const zeroBtn = document.querySelector("#zero-btn")
-const oneBtn = document.querySelector("#one-btn")
-const twoBtn = document.querySelector("#two-btn")
-const treeBtn = document.querySelector("#tree-btn")
-const fourBtn = document.querySelector("#four-btn")
-const fiveBtn = document.querySelector("#five-btn")
-const sixBtn = document.querySelector("#six-btn")
-const sevenBtn = document.querySelector("#seven-btn")
-const eightBtn = document.querySelector("#eight-btn")
-const nineBtn = document.querySelector("#nine-btn")
-const plusBtn = document.querySelector("#plus-btn")
-const minusBtn = document.querySelector("#minus-btn")
-const multiplyBtn = document.querySelector("#multiply-btn")
-const divideBtn = document.querySelector("#divide-btn")
-const resetBtn = document.querySelector("#reset-btn")
-const equalBtn = document.querySelector("#equal-btn")
-let inputEl = document.querySelector("#output")
+let outputEl = document.querySelector("#output")
 
-inputEl.value = 0
+outputEl.value = ""
+
+function afficher(a) {
+    outputEl.value += a
+}
+
+function reset() {
+    outputEl.value = ""
+}
+
+function calcul() {
+    outputEl.value = eval(outputEl.value)
+}

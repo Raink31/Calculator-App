@@ -14,22 +14,22 @@
 <body>
     <div class="container">
         <div id="calcul-display"><input id="output" type="text"></div>
-        <button id="zero-btn">0</button>
-        <button id="one-btn">1</button>
-        <button id="two-btn">2</button>
-        <button id="plus-btn">+</button>
-        <button id="tree-btn">3</button>
-        <button id="four-btn">4</button>
-        <button id="five-btn">5</button>
-        <button id="minus-btn">-</button>
-        <button id="six-btn">6</button>
-        <button id="seven-btn">7</button>
-        <button id="eight-btn">8</button>
-        <button id="multiply-btn">X</button>
-        <button id="nine-btn">9</button>
-        <button id="reset-btn">C</button>
-        <button id="equal-btn">=</button>
-        <button id="divide-btn">%</button>
+        <button id="zero-btn" onclick="afficher('0')">0</button>
+        <button id="one-btn" onclick="afficher('1')">1</button>
+        <button id="two-btn" onclick="afficher('2')">2</button>
+        <button id="plus-btn" onclick="afficher('+')">+</button>
+        <button id="tree-btn" onclick="afficher('3')">3</button>
+        <button id="four-btn" onclick="afficher('4')">4</button>
+        <button id="five-btn" onclick="afficher('5')">5</button>
+        <button id="minus-btn" onclick="afficher('-')">-</button>
+        <button id="six-btn" onclick="afficher('6')">6</button>
+        <button id="seven-btn" onclick="afficher('7')">7</button>
+        <button id="eight-btn" onclick="afficher('8')">8</button>
+        <button id="multiply-btn" onclick="afficher('*')">x</button>
+        <button id="nine-btn" onclick="afficher('9')">9</button>
+        <button id="reset-btn" onclick="reset()">C</button>
+        <button id="equal-btn" onclick="calcul()">=</button>
+        <button id="divide-btn" onclick="afficher('%')">%</button>
     </div>
     <script src="script.js"></script>
 </body>

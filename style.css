@@ -78,7 +78,14 @@ button:hover{
     background-color: #fb7aba;
 }
 
-input{
+#output{
     background: none;
     border: none;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #ffffffc7;
+    text-align: right;
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    letter-spacing: 6px;
 }
