@@ -77,3 +77,8 @@ button:hover{
     cursor: pointer;
     background-color: #fb7aba;
 }
+
+input{
+    background: none;
+    border: none;
+}

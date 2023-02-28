@@ -1,6 +1,3 @@
-let count = 0;
-let calculDisplayEl = document.querySelector("#calcul-display-el")
-let selectedNumber = 0
 const zeroBtn = document.querySelector("#zero-btn")
 const oneBtn = document.querySelector("#one-btn")
 const twoBtn = document.querySelector("#two-btn")
@@ -17,13 +14,6 @@ const multiplyBtn = document.querySelector("#multiply-btn")
 const divideBtn = document.querySelector("#divide-btn")
 const resetBtn = document.querySelector("#reset-btn")
 const equalBtn = document.querySelector("#equal-btn")
+let inputEl = document.querySelector("#output")
 
-calculDisplayEl.textContent = calcul(addSelectedNumber)
-
-function addSelectedNumber(a) {
-    return a
-}
-
-function calcul(a) {
-    return count + a
-}
+inputEl.value = 0
