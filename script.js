@@ -11,5 +11,5 @@ function reset() {
 }
 
 function calcul() {
-    outputEl.value = eval(outputEl.value)
+    outputEl.value = eval(outputEl.value).toFixed(10)
 }
